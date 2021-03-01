@@ -29,30 +29,30 @@ android {
         }
     }
     productFlavors {
-        armeabi {
-            minSdkVersion 14
-            dimension 'abi'
-        }
-
-        armeabi_v7a {
-            minSdkVersion 14
-            dimension 'abi'
-        }
+//        armeabi {
+//            minSdkVersion 14
+//            dimension 'abi'
+//        }
+//
+//        armeabi_v7a {
+//            minSdkVersion 14
+//            dimension 'abi'
+//        }
 
         arm64_v8a {
             minSdkVersion 21
             dimension 'abi'
         }
 
-        x86 {
-            minSdkVersion 14
-            dimension 'abi'
-        }
-
-        x86_64{
-            minSdkVersion 21
-            dimension 'abi'
-        }
+//        x86 {
+//            minSdkVersion 14
+//            dimension 'abi'
+//        }
+//
+//        x86_64{
+//            minSdkVersion 21
+//            dimension 'abi'
+//        }
     }
 }
 
@@ -68,13 +68,13 @@ dependencies {
     implementation project(':ijkplayer-exo')
 
 //    ARM
-    armeabiImplementation project(':ijkplayer-armv5')
-    armeabi_v7aImplementation project(':ijkplayer-armv7a')
+//    armeabiImplementation project(':ijkplayer-armv5')
+//    armeabi_v7aImplementation project(':ijkplayer-armv7a')
     arm64_v8aImplementation project(':ijkplayer-arm64')
 
 //    X86
-    x86Implementation project(':ijkplayer-x86')
-    x86_64Implementation project(':ijkplayer-x86_64')
+//    x86Implementation project(':ijkplayer-x86')
+//    x86_64Implementation project(':ijkplayer-x86_64')
 
 //    all32Implementation project(':ijkplayer-armv5')
 //    all32Implementation project(':ijkplayer-armv7a')
